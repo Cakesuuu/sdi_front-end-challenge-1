@@ -12,7 +12,6 @@ export default async function Pagination() {
     return (
         <div className="flex flex-col w-full h-full gap-2">
 
-            {/* Image Section */}
             <div className="flex flex-col w-full h-72">
 
                 <div className="relative h-5/6">
@@ -28,8 +27,8 @@ export default async function Pagination() {
                 </div>
 
                 <div className="relative flex flex-row h-1/6 bottom-panel items-center justify-end shadow-sm">
-                    <div className="absolute flex flex-col w-1/12 h-12 left-[20px] top-[-30px] skew-x-[-16deg] bg-[#d8312d]"></div>
-                    <div className="absolute flex flex-col w-1/12 h-12 left-[20px] top-[-30px] text-white justify-center items-center">
+                    <div className="absolute flex flex-col w-2/12 md:w-1/12 h-12 left-[20px] top-[-30px] skew-x-[-16deg] bg-[#d8312d]"></div>
+                    <div className="absolute flex flex-col w-2/12 md:w-1/12 h-12 left-[20px] top-[-30px] text-white justify-center items-center">
                         <h1 className="text-[18px] font-black">13</h1>
                         <h1 className="text-[10px]">JAN</h1>
                     </div>
