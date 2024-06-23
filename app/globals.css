@@ -31,3 +31,22 @@ body {
     text-wrap: balance;
   }
 }
+
+.pagination a {
+  display: flex;
+  font-size: 0.75rem;
+  border-radius: 0.25rem;
+  padding: 0.75rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border: 1px solid #cfd8dc;
+  transition: background-color 0.1s, border-color 0.3s, color 0.3s;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination a:hover {
+  background-color: #d8312d;
+  border-color: transparent;
+  color: #fff;
+}
