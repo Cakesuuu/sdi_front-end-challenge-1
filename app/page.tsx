@@ -22,7 +22,7 @@ export default async function Home() {
             <a href="#">&laquo;</a>
 
             {Array.from({ length: entries }, (_, index) => (
-              <a href="#">{news[index].id}</a>
+              <a key={news[index].id} href="#">{news[index].id}</a>
             ))}
 
             <a href="#">&raquo;</a>
